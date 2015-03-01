@@ -3,11 +3,15 @@ JSONB
 
 JSONB is a wrapper around `database/sql` to expose a simple document-store for PostgreSQL using 9.4+ JSONB types.
 
+This is intended to simplify the process of prototyping in Go.
+
 Features:
 
   - CRUD
   - Versioning
   - Similar API to `database/sql`
+
+[API Docs](http://godoc.org/github.com/jamescun/jsonb)
 
 Example
 -------
